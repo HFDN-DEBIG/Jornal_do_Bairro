@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .logo:hover {
+    transform: scale(1.4);
+  }
+  
+  .logo, ul {
+    display: inline-block;
+    vertical-align: middle;
+    transition: transform 1s;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .linkHeader {
+    color: #fff;
+    text-decoration: none;
+    padding: 25px;
+    font-size: 20px;
+  }
+  
+  .linkHeader:hover,
+  nav a:focus {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 65px;
+  }
+
+  nav ul:hover {
+    transform: translateX(30px);
+  }
+  
+  form {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 18px;
+    border: 2px solid #ccc;
+    border-radius: 28px;
+  }
+  
+  button[type="submit"] {
+    padding: 18px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  
+  article {
+    background-color: #e0dbdb;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Anton', sans-serif;
+  }
+  
+  p {
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  p.date {
+    color: #999;
+    font-size: 14px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer p {
+    display: flex;
+    margin: 0;
+    color: rgb(177, 177, 177);
+  }
+  
+  .linksF li {
+    display: inline;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .linksF a:link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .linksF a:visited {
+    color: lightblue;
+    text-decoration: none;
+  }
+  

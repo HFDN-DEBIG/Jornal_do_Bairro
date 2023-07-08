@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ꓭP-Entre em Contato</title>
+  <link rel="icon" href="img/favicon.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    body{
+      background-color:#004AAD ;
+      font-family:'Anton', sans-serif;;
+      font-size: 25px;
+    }
+    .form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #e0dbdb;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+      
+    }
+
+    input {
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    border: 2px solid #004AAD;
+    border-radius: 5px;
+    box-shadow: 5px;
+    width: 200px;
+    height: 25px;
+  }
+
+  button{
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+  }
+  </style>
+</head>
+<body>
+  <form class="form" action="send.php" method="post">
+    Email <input type="email" name="email" value=""> <br>
+    Subject <input type="text" name="subject" value=""> <br>
+    Message <input type="text" name="message" value=""> <br>
+    <button type="submit" name="send">Send</button>
+  </form>
+</body>
+</html>
